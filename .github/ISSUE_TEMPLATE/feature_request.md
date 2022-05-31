@@ -1,20 +1,20 @@
 ---
 name: Feature request
-about: Make a suggestion for this project
+about: Doe een suggestie voor dit project
 title: ''
-labels: enhancement
+labels: verbetering
 assignees: ''
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+**Heeft het functieverzoek betrekking op een probleem? Omschrijf a.u.b.**
+Een duidelijke en beknopte beschrijving van wat het probleem is. Ex. Ik ben altijd gefrustreerd wanneer [...]
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+**Beschrijf de gewenste oplossing**
+Een duidelijke en beknopte beschrijving van wat je wilt dat er gebeurt.
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+**Beschrijf de alternatieven die u heeft overwogen**
+Een duidelijke en beknopte beschrijving van eventuele alternatieve oplossingen of functies die je hebt overwogen.
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+**Aanvullende context**
+Voeg hier eventuele andere context of schermafbeeldingen over het functieverzoek toe.
