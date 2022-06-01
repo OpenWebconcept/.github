@@ -18,11 +18,11 @@ Zorg ervoor dat je elke stap in detail beantwoordt.
 
 ## Forking van de repository
 Om te beginnen moet je eerst de repository forken, dat kan [hier](/../../fork).
-Zodra dit is gebeurd, kunt u het naar uw lokale computer klonen.
+Zodra dit is gebeurd, kun je het naar je lokale computer klonen.
 
 ## De wijzigingen aanbrengen
-Maak op uw lokale computer een nieuwe vertakking op de `development branch`.
-gebruik de volgende naamgevingsconventie voor uw vertakkingsnaam:
+Maak op je computer een nieuwe branch op de `development branch`.
+Gebruik de volgende naamgevingsconventie voor nieuwe branches:
 - `issue/issue-nummer`
 - `functie/functienaam`
 
@@ -42,7 +42,7 @@ Docblock-annotaties zijn een hulpmiddel om metadata in de documentatiesectie in 
 
 Een paar voorbeelden van hoe we dit toepassen in onze projecten:
 
-```vue'
+```vue
     /**
      * @var string Naam van deze applicatie
      *
@@ -55,9 +55,9 @@ Een paar voorbeelden van hoe we dit toepassen in onze projecten:
      * Functiebeschrijving komt hier.
      *
      * @param string $code de code ontvangen door id-vault oauth-eindpunt.
-     * @param string $applicationId id van uw id-vault-toepassing.
-     * @param string $geheim geheim van uw id-vault-toepassing.
-     * @param string $state (optioneel) Een willekeurige string die door uw toepassing wordt gebruikt om een ​​unieke sessie te identificeren
+     * @param string $applicationId id van de id-vault-toepassing.
+     * @param string $geheim geheim van de id-vault-toepassing.
+     * @param string $state (optioneel) Een willekeurige string die door de toepassing wordt gebruikt om een ​​unieke sessie te identificeren
      *
      * @return array|false informatie over wat deze functie retourneert
      */
@@ -71,17 +71,12 @@ Hier kun je meer over lezen:
 - [DocBlock](https://en.wikipedia.org/wiki/Docblock)
 
 ### Postman
-Om ervoor te zorgen dat uw wijzigingen werken, kunnen we dit testen met [postman](https://www.postman.com/).
-Zorg ervoor dat u een werkend postman-testscript opgeeft in jouw pull-verzoek.
-
-
-
-
-
+Om ervoor te zorgen dat de wijzigingen werken, kunnen we dit testen met [postman](https://www.postman.com/).
+Zorg ervoor dat je een werkend postman-testscript opgeeft in jouw pull request.
 
 
 ### Testen en accepteren
-Voor alle branches, wanneer een pull-verzoek wordt gestart
+Voor alle branches, wanneer een pull request wordt gestart
 - Codebase controleert op kwetsbaarheden via [dependabot](https://github.com/dependabot)
 - [Style CI](https://styleci.io/) wordt uitgevoerd om de kwaliteit van psr-02-compliance te bepalen
 - [Better code hub](https://www.bettercodehub.com/) wordt uitgevoerd om de kwaliteit van de codebase te bepalen
@@ -108,13 +103,13 @@ Bij het opstellen van je Pull Request graag rekening houden met de volgende zake
 - zorg ervoor dat de code de normen volgen die zijn gedefinieerd in het gedeelte over codekwaliteit
 - schrijf duidelijke en beschrijvende commit-berichten
 
-Als jouw pull-verzoek een functieverzoek is, zorg er dan voor dat je het toevoegt aan de [changelog](CHANGELOG.md).
+Als jouw pull request een functieverzoek is, zorg er dan voor dat je het toevoegt aan de [changelog](CHANGELOG.md).
 
-Geef in de beschrijving van het pull-verzoek zoveel mogelijk details over uw wijzigingen (schroom niet om codevoorbeelden te geven om uw punten te illustreren). Als uw pull-verzoek gaat over het toevoegen van een nieuwe functie of het wijzigen van een bestaande, leg dan de reden voor de wijzigingen uit. De beschrijving van het pull-verzoek helpt bij het beoordelen van de code en het dient als verwijzing wanneer de code wordt samengevoegd (de beschrijving van het pull-verzoek en alle bijbehorende opmerkingen maken deel uit van het bericht voor het vastleggen van samenvoeging).
-Zorg ervoor dat je pull-verzoeken ook verwijzen naar tenminste een of meer van de problemen waaraan je hebt gewerkt.
+Geef in de beschrijving van het pull request zoveel mogelijk details over de wijzigingen (schroom niet om codevoorbeelden te geven om de punten te illustreren). Als de pull request gaat over het toevoegen van een nieuwe functie of het wijzigen van een bestaande, leg dan de reden voor de wijzigingen uit. De beschrijving helpt bij het beoordelen van de code en dient als verwijzing wanneer de code wordt samengevoegd (de beschrijving van het pull request en alle bijbehorende opmerkingen maken deel uit van het bericht voor het vastleggen van samenvoeging).
+Zorg ervoor dat je pull requesten ook verwijzen naar tenminste één of meer van de problemen waaraan je hebt gewerkt.
 
-Wanneer je denkt dat je code klaar is om te worden ingediend, kun je een pull-verzoek indienen bij de development branch.
+Wanneer je denkt dat je code klaar is om te worden ingediend, kun je een pull request indienen bij de development branch.
 
-Houd er rekening mee dat wanneer je een PR maakt, je automatisch het eigendom van uw code overdraagt.
+Houd er rekening mee dat wanneer je een PR maakt, je automatisch het eigendom van de code overdraagt.
 
-Hoewel aan de bovenstaande vereisten moet zijn voldaan voordat uw pull-verzoek wordt beoordeeld, kunnen de beoordelaar(s)  vragen om extra ontwerpwerk, tests of andere wijzigingen uit te voeren voordat uw pull-verzoek uiteindelijk kan worden geaccepteerd.
+Hoewel aan de bovenstaande vereisten moet zijn voldaan voordat de pull request wordt beoordeeld, kunnen de beoordelaar(s) vragen om extra ontwerpwerk, tests of andere wijzigingen uit te voeren voordat de pull request uiteindelijk kan worden geaccepteerd.
