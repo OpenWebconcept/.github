@@ -1,38 +1,38 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+about: Maak een rapport om ons te helpen verbeteren
 title: ''
 labels: bug
 assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+**Beschrijf de bug**
+Een duidelijke en beknopte beschrijving van wat de bug is.
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+**Te reproduceren**
+Stappen om het gedrag te reproduceren:
+1. Ga naar '...'
+2. Klik op '....'
+3. Scroll naar beneden naar '....'
+4. Zie fout
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+**Verwacht gedrag**
+Een duidelijke en beknopte beschrijving van wat je verwachtte dat er zou gebeuren.
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+**Schermafbeeldingen**
+Voeg, indien van toepassing, schermafbeeldingen toe om jouw probleem uit te leggen.
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+**Desktop (vul de volgende informatie in):**
+ - Besturingssysteem: [bijv. iOS]
+ - Browser [bijv. chroom, safari]
+ - Versie [bijv. 22]
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+**Smartphone (vul de volgende gegevens in):**
+ - Apparaat: [bijv. Iphone 6]
+ - Besturingssysteem: [bijv. iOS8.1]
+ - Browser [bijv. stockbrowser, safari]
+ - Versie [bijv. 22]
 
-**Additional context**
-Add any other context about the problem here.
+**Aanvullende context**
+Voeg hier een andere context over het probleem toe.
