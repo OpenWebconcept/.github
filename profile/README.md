@@ -13,7 +13,7 @@ Wij werken niet samen in een fysieke organisatie maar zien ons zelf als een bewe
 - **Vrije marktwerking:** minder afhankelijkheid van leveranciers met vaste stramienen en ontwikkeltrajecten en roadmaps
 - **Open samenwerking tussen overheid en markt:** zowel gemeenten als marktpartijen profiteren van de online toepassingen
 
-Wij geloven in een open en pragmatische aanpak, waarin iedere gemeente kan deelnemen en een envenredige bijdrage levert aan de community.
+Wij geloven in een open en pragmatische aanpak, waarin iedere gemeente kan deelnemen en een evenredige bijdrage levert aan de community.
 
 ## 👩‍💻 Member worden
 Ben je enthousiast geworden over het Open Webconcept? Neem dan gerust contact op via ons contact [formulier](https://openwebconcept.nl/contact/) of zeg hallo in ons [Slack](https://openwebconcept.slack.com/) kanaal. Er is geen formeel traject wat doorlopen moet worden om deel te nemen of member te worden. 
