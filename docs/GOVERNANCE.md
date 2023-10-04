@@ -12,7 +12,7 @@ Binnen het Open Webconcept hanteren we de volgende uitgangspunten:
 Intentieverklaring op: https://OpenWebconcept.nl/intentieverklaring/
 
 ## Open Webconcept Bouwblokken
-Binnen het Open Webconcept delen we functionaliteiten door middel van bouwblokken, hiervoor gelden de volgende uitgangspunten:
+Binnen het Open Webconcept delen we functionaliteiten door middel van bouwblokken. Hiervoor gelden de volgende uitgangspunten:
 * Te gebruiken in WordPress
 * Commonground gedachte
 * Delen met anderen
@@ -38,31 +38,32 @@ Voor deze bouwblokkken kunnen we dan ook bepaalde eisen ophalen:
 
 ## Invulling Bouwblokken
 Per bouwblok:
-* Te vinden op https://github.com/OpenWebconcept/
-* Licentie is EUPL
-* Eén repository met die bloknaam
-* WordPress notificatie wanneer er een update is
-* Versie beheer conform [semver](https://semver.org/)
-* Bij iedere nieuwe versie ook een github release
-* Bij iedere nieuwe github release ook een package (zodat oudere versies later nog te downloaden en gebruiken zijn)
-* Gemeente is beheerder bouwblok
-* Leverancier plaatst de code en maakt/doet de aanpassingen (kan natuurlijk een gemeente zijn)
-* Aanpassingen worden aangeleverd op basis van Pull Requests en bij voorkeur door een andere leverancier/gemeente goedgekeurd
-* Dat de issues/changes worden opgepakt
-* Installeerbaar via de WordPress plugin structuur (dus WordPress installer ondersteunen)
-* Naast plugin structuur moet ook installatie via composer worden ondersteund
-* WordPress update checker moet zijn geïntegreerd in WordPress plugins
-* De blokken kunnen met elkaar draaien op dezelfde server maar mogen ook los geïnstalleerd worden
-* Een bouwblok is voorzien van correcte en passende linters
-* Er is een workflow die bij PR's controleert of branches voldoen aan linters en andere voorwaarden
-* De algemene codestijl is de WordPress coding standaard
-* Een repository mag hiervan afwijken maar moet dit dan documenteren
+* Is deze te vinden op https://github.com/OpenWebconcept/
+* De licentie is EUPL
+* Er is één repository met die bloknaam
+* De gemeente is de beheerder van het bouwblok
+* De leverancier plaatst de code en maakt de aanpassingen. Een gemeente kan ook een leverancier zijn.
 * De beheerder kan een leverancier zijn of gemeenten maar MOET zijn opgenomen in de publicode.yaml
 * De eigenaar kan een gemeente zijn of leverancier maar MOET zijn opgenomen in de publicode.yaml
+* Issues en changes worden actief opgepakt
 * De beheerder van een bouwblok is verantwoordelijk voor de ondersteuning van andere partijen, ook als dit directe concurrenten zijn
-* Documentatie over bouwblokken moet zijn opgenomen bij de code (repository) van het bouwblok
-* Een bouwblok moet standaard vertalingsopties ondersteunen
+* Aanpassingen worden aangeleverd op basis van Pull Requests en bij voorkeur door een andere leverancier of gemeente goedgekeurd
 * Een bouwblok mag geen afhankelijkheden hebben op closed source software, tenzij expliciet vermeld in de readme
+
+### Techniek
+* Versiebeheer conform [semver](https://semver.org/)
+* Bij iedere nieuwe versie wordt er ook een github release aangemaakt
+* Bij iedere nieuwe github release wordt ook een package aangemaakt (zodat oudere versies later nog te downloaden en gebruiken zijn)
+* Het is installeerbaar via de WordPress plugin structuur (dus [WordPress update checker](https://github.com/YahnisElsts/plugin-update-checker) implementeren)
+* Naast plugin structuur moet ook installatie via [Composer](https://getcomposer.org/) worden ondersteund
+* Een bouwblok moet standaard [vertalingsopties](https://codex.wordpress.org/I18n_for_WordPress_Developers) ondersteunen
+* De blokken kunnen met elkaar draaien op dezelfde server, maar mogen ook los geïnstalleerd worden
+* Een bouwblok is voorzien van correcte en passende linters
+* Er is een workflow die bij PR's controleert of branches voldoen aan linters en andere voorwaarden
+* De algemene codestijl is de [WordPress coding standaard](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/). Een repository mag hiervan afwijken, maar moet dit dan documenteren
+
+### Documentatie
+* Documentatie over bouwblokken moet zijn opgenomen bij de code (repository) van het bouwblok
 * De readme moet een verwijzing naar issues inschieten formulier bevatten als communicatiekanaal
 * Documentatie over de code en technische documentatie is in het Engels
 * Gebruiksdocumentatie is in het Nederlands
