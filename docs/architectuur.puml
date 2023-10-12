@@ -24,9 +24,13 @@ package "Wordpress / Plugins" {
  [Open PUB]  as mijnNieuwslugin
  [Grafity Forms]  as GrafityFormsPlugin
 }
-package "Micro services" {
+package "(Micro) services" {
  [Waardepapieren]  as WaardepapierenService
  [omc]  as omc
+}
+package "(ZGW) services" {
+ [Notificatie Component]  as nc
+ [Authorisatie Component]  as ac
 }
 }
 
@@ -40,19 +44,15 @@ package "ZGW" {
  [Zaakttype catalogus]  as ztc
  [Document Registratie Component]  as drc
  [Object Registratie Component]  as orc
- [Notificatie Component]  as nc
- [Authorisatie Component]  as ac
 }
 }
 
 package "Layer 1 (Database)" {
 package "ZGW" as zgwdb {
- database "AZaak Registratie Component"  as zrcDB
- database "AZaakttype catalogus"  as ztcDB
- database "ADocument Registratie Component"  as drcDB
- database "AObject Registratie Component"  as orcDB
- database "ANotificatie Component"  as ncDB
- database "Authorisatie Component"  as acDB
+ database "Zaak Registratie Component"  as zrcDB
+ database "Zaakttype catalogus"  as ztcDB
+ database "Document Registratie Component"  as drcDB
+ database "Object Registratie Component"  as orcDB
 }
 }
 
@@ -84,6 +84,4 @@ ztc --> ztcDB
 zrc --> zrcDB
 drc --> drcDB
 orc --> orcDB
-nc --> ncDB
-ac --> acDB
 @enduml
