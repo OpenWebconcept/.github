@@ -24,6 +24,10 @@ package "Wordpress / Plugins" {
  [Open PUB]  as mijnNieuwslugin
  [Grafity Forms]  as GrafityFormsPlugin
 }
+package "Micro services" {
+ [Waardepapieren]  as WaardepapierenService
+ [omc]  as omc
+}
 }
 
 package "Layer 3 (Intregation)" {
@@ -43,12 +47,12 @@ package "ZGW" {
 
 package "Layer 1 (Database)" {
 package "ZGW" as zgwdb {
- [Zaak Registratie Component]  as zrcDB
- [Zaakttype catalogus]  as ztc
- [Document Registratie Component]  as zrcDB
- [Object Registratie Component]  as zrcDB
- [Notificatie Component]  as zrcDB
- [Authorisatie Component]  as zrcDB
+ database "AZaak Registratie Component"  as zrcDB
+ database "AZaakttype catalogus"  as ztcDB
+ database "ADocument Registratie Component"  as drcDB
+ database "AObject Registratie Component"  as orcDB
+ database "ANotificatie Component"  as ncDB
+ database "Authorisatie Component"  as acDB
 }
 }
 
@@ -72,12 +76,14 @@ gateway --> drc
 gateway --> orc
 gateway --> nc
 gateway --> ac
+nc --> WaardepapierenService: Notificeerd bij status wijziging
+nc --> omc: Notificeerd bij status wijziging
+omc --> notify.nl: Notificeerd bij status wijziging
 
-ztc --> ztcDb
-zrc --> zrcDb
-drc --> drcDb
-orc --> orcDb
-nc --> ncDb
-ac --> acDb
-
+ztc --> ztcDB
+zrc --> zrcDB
+drc --> drcDB
+orc --> orcDB
+nc --> ncDB
+ac --> acDB
 @enduml
