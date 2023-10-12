@@ -1,0 +1,87 @@
+@startuml
+title: Open Webconcept
+footer: Open Webconcept | Components
+header: Components
+
+
+package "Layer 5 (interaction)" {
+package "Wordpress / NL Design" {
+ [Mijn Zaken]  as mijnZakenUI
+ [Mijn Berichten]  as mijnBerichtenUI
+ [Mijn Taken]  as mijnTakenUI
+ [Mijn Profiel]  as mijnProfielUI
+ [Mijn Nieuws]  as mijnNieuwsUI
+ [Producten en Diensten]  as mijnDienstenUI
+}
+}
+
+package "Layer 4 (Bussnes Logic)" {
+package "Wordpress / Plugins" {
+ [Mijn Zaken]  as mijnZakenPlugin
+ [Mijn Berichten]  as mijnBerichtenPlugin
+ [Mijn Taken]  as mijnTakenPlugin
+ [Mijn Profiel]  as mijnZProfielPlugin
+ [Open PUB]  as mijnNieuwslugin
+ [Grafity Forms]  as GrafityFormsPlugin
+}
+package "(Micro) services" {
+ [Waardepapieren]  as WaardepapierenService
+ [omc]  as omc
+}
+package "(ZGW) services" {
+ [Notificatie Component]  as nc
+ [Authorisatie Component]  as ac
+}
+}
+
+package "Layer 3 (Intregation)" {
+ [Common Gateway]  as gateway
+}
+
+package "Layer 2 (API)" {
+package "ZGW" {
+ [Zaak Registratie Component]  as zrc
+ [Zaakttype catalogus]  as ztc
+ [Document Registratie Component]  as drc
+ [Object Registratie Component]  as orc
+}
+}
+
+package "Layer 1 (Database)" {
+package "ZGW" as zgwdb {
+ database "Zaak Registratie Component"  as zrcDB
+ database "Zaakttype catalogus"  as ztcDB
+ database "Document Registratie Component"  as drcDB
+ database "Object Registratie Component"  as orcDB
+}
+}
+
+mijnZakenUI --> mijnZakenPlugin
+mijnBerichtenUI--> mijnBerichtenPlugin
+mijnTakenUI --> mijnTakenPlugin
+mijnProfielUI --> mijnZProfielPlugin
+mijnNieuwsUI --> mijnNieuwslugin
+mijnDienstenUI --> GrafityFormsPlugin
+
+mijnZakenPlugin --> gateway
+mijnBerichtenPlugin --> gateway
+mijnTakenPlugin --> gateway
+mijnZProfielPlugin --> gateway
+mijnNieuwslugin --> gateway
+GrafityFormsPlugin --> gateway
+
+gateway --> ztc
+gateway --> zrc
+gateway --> drc
+gateway --> orc
+gateway --> nc
+gateway --> ac
+nc --> WaardepapierenService: Notificeerd bij status wijziging
+nc --> omc: Notificeerd bij status wijziging
+omc --> notify.nl: Notificeerd bij status wijziging
+
+ztc --> ztcDB
+zrc --> zrcDB
+drc --> drcDB
+orc --> orcDB
+@enduml
