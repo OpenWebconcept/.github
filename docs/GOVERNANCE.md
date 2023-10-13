@@ -76,7 +76,7 @@ Per bouwblok:
 ### Documentatie
 
 * Documentatie over bouwblokken moet zijn opgenomen bij de code (repository) van het bouwblok
-* De readme moet een verwijzing naar issues inschieten formulier bevatten als communicatiekanaal
+* De readme moet aangeven waar je terecht kunt met issues / vragen
 * Documentatie over de code en technische documentatie is in het Engels
 * Gebruiksdocumentatie is in het Nederlands
 * De voorkant van een bouwblok is in ieder geval beschikbaar in het Nederlands
