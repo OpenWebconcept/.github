@@ -1,5 +1,8 @@
 name: My Open Catalogi Workflow
 
+permissions:
+  contents: write
+  
 on:
   workflow_dispatch:
 
@@ -8,4 +11,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Update publiccode.yaml
-        uses: OpenCatalogi/opencatalogi-action@v.0.0.1.-beta
+        uses: OpenCatalogi/opencatalogi-action@0.1.0-main.7.b1bab8f
