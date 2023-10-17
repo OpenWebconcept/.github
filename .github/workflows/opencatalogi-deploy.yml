@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Update publiccode.yaml
-        uses: OpenCatalogi/opencatalogi-action@latest
+        uses: OpenCatalogi/opencatalogi-action@v.0.0.1.-beta
