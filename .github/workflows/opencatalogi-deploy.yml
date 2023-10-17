@@ -11,4 +11,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Deploy Open Catalogi github page
-        uses: OpenCatalogi/opencatalogi-action@0
+        uses: OpenCatalogi/opencatalogi-action@0.1.0-SNAPSHOT.8.3e53279
