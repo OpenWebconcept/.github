@@ -2,6 +2,7 @@
 # Welkom! 👋
 
 ## 🙋‍♀️ Wat is het Open Webconcept
+
 Het Open Webconcept is ontstaan vanuit de overtuiging dat de digitale dienstverlening voor gemeenten innovatiever en voordeliger kan.
 Het doel van de samenwerking is praktisch samenwerken met gemeenten en leveranciers om doorontwikkeling, flexibiliteit en continuïteit te realiseren.
 Binnen het Open Webconcept ontwikkelen gemeenten samen online toepassingen en dataservices.
@@ -16,4 +17,5 @@ Wij werken niet samen in een fysieke organisatie maar zien ons zelf als een bewe
 Wij geloven in een open en pragmatische aanpak, waarin iedere gemeente kan deelnemen en een evenredige bijdrage levert aan de community.
 
 ## 👩‍💻 Member worden
-Ben je enthousiast geworden over het Open Webconcept? Neem dan gerust contact op via ons contact [formulier](https://openwebconcept.nl/contact/) of zeg hallo in ons [Slack](https://openwebconcept.slack.com/) kanaal. Er is geen formeel traject wat doorlopen moet worden om deel te nemen of member te worden. 
+
+Ben je enthousiast geworden over het Open Webconcept? Neem dan gerust contact op via ons contact [formulier](https://openwebconcept.nl/contact/) of zeg hallo in ons [Slack](https://openwebconcept.slack.com/) kanaal. Er is geen formeel traject wat doorlopen moet worden om deel te nemen of member te worden.
