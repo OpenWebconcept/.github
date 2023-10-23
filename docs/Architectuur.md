@@ -11,6 +11,13 @@ Hiermee volgen we feitenlijk dezelfde lijn als bijvoorbeeld open zaak, de applic
 ## Laag 5
 Hier treffen we zowel de NL Design React componenten zo als geleverd door de wordpres pluggins (o.a. mijn zaken, mijn berichten etc) maar ook de losse (headless) react frontends zo als Open WOO app 
 
+### NL Design
+* We kiezen voor aansluiting op wordpress standaarden (Gatsby blokken) boven NL Design (react)
+* We volgen [storybook]() [TODO] link toevoegen en OWC storybook maken
+* We houden een lijst bij welke NL Design variant we gebruiken per component
+* Daar waar we extra componenten ontwikkelen geven we die terug aan NL Design
+* We voegen extra tokens altijd toe aan de Open Webconcept token set voor test doeleinden
+
 ## Laag 4
 Hier treffen we enerzijds de Wordpress PHP bussen logic vanuit de wordpress plugins, maar ook De waarde papieren microservice en andere logica componenten zo als ZGW notificaties.
 

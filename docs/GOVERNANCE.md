@@ -67,13 +67,6 @@ Per bouwblok:
 * Gebruiks documentatie is in het Nederlands
 * De voorkant van een bouwblok is in ieder geval beschickbaar in het Nederlands
 
-## NL Design
-* We kiezen voor aansluiting op wordpress standaarden (Gatsby blokken) boven NL Design (react)
-* We volgen [storybook]() [TODO] link toevoegen en 
-* We houden een lijst bij welke NL DEsign variant we gebruiken per component
-* Daar waar we extra componenten ontwikkelen geven we die terug aan NL Design
-* We voegen extra tokens altijd toe aan de Open Webconcept token set voor test doeleinden
-
 ## Beheer organisatie
 
 ### Open Webconcept Foundation
@@ -92,3 +85,7 @@ Per bouwblok:
 * Plaatst de code in de betreffende  repository
 * Zorgt dat de bugs worden opgelost
 * Handelt de issues / changes af
+
+## Architectuur
+
+Alle bijdragen moeten voldoen aan de [architectuur principes](Architectuur.md) 
