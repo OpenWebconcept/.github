@@ -4,11 +4,10 @@ Ten behoeve van het beheer van de code is het noodzakelijk om afspraken te maken
 ## Gedachte Open Webconcept
 Binnen het Open Webconcept hanteren we de volgende uitgangspunten:
 * WordPress
-* Open architectuur:
-* Vrije marktwerking
 * Open samenwerking
 * Pragmatisch
-  Intentieverklaring op: https://OpenWebconcept.nl/intentieverklaring/
+
+Intentieverklaring op: [https://OpenWebconcept.nl/intentieverklaring/](https://OpenWebconcept.nl/intentieverklaring/)
 
 ## Open Webconcept Bouwblokken
 Binnen het Open Webconcept delen we functionaliteiten door middel van bouwblokken, hiervoor gelden de volgende uitgangspunten:
@@ -21,7 +20,7 @@ Binnen het Open Webconcept delen we functionaliteiten door middel van bouwblokke
 ## Behoefte Bouwblokken
 Voor deze bouwblokkken kunnen we dan ook bepaalde eisen ophalen:
 * Wordpress: opensource
-* Toegankelijk voor nieuwe nieuwe partijen  die willen participeren
+* Toegankelijk voor nieuwe partijen die willen participeren
 * Pragmatische insteek, alleen formeel wanneer het nodig is
 * Ook een reeële manier om weer te verlaten
 * Garanties ten opzichte van elkaar
@@ -32,6 +31,7 @@ Voor deze bouwblokkken kunnen we dan ook bepaalde eisen ophalen:
     * Zelfde licentie
     * 2e lijns support op de code (bugs/changes)
     * Eén jaar aangeven dat support vervalt
+    * 
     * Eén plek waar alle bouwblokken te vinden zijn
     * Signaal wanneer er een nieuwe versie is
 

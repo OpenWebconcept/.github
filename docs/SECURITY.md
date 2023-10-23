@@ -9,8 +9,7 @@
 ## Fix time
 
 
-- Binnen 1 werkdag worden er eigensaarschpa genomen over securty issues
-- Binnen 2 werkdag word het issue of opegelost of gecomuniseerd over oplossings richting
+- Binnen 1 werkdag worden er eigenaarschap genomen over securty issues
+- Binnen 2 werkdagen word het issue of opgegelost of gecomuniseerd over oplossings richting en verwachting
 
-## W
 
