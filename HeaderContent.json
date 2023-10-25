@@ -1,0 +1,74 @@
+[
+  {
+    "label": "Home",
+    "type": "readme",
+    "current": {
+      "pathname": "/",
+      "operator": "equals"
+    },
+    "handleClick": { "link": "https://github.com/OpenWebconcept/.github/blob/main/docs/Catalogi.md" }
+  },
+  {
+    "label": "Components",
+    "type": "internal",
+    "current": {
+      "pathname": "/components",
+      "operator": "includes"
+    },
+    "handleClick": { "link": "/components" }
+  },
+  {
+    "label": "Over Open Webconcept",
+    "current": {
+      "pathname": "/about",
+      "operator": "includes"
+    },
+    "subItems": [
+      {
+        "label": "Architectuur",
+        "type": "readme",
+        "current": {
+          "pathname": "/about/architectuur",
+          "operator": "equals"
+        },
+        "handleClick": { "link": "https://github.com/OpenWebconcept/.github/blob/main/profile/Architectuur.md" }
+      },
+      {
+        "label": "Bijdragen",
+        "type": "readme",
+        "current": {
+          "pathname": "/about/contributing",
+          "operator": "equals"
+        },
+        "handleClick": { "link": "https://github.com/OpenWebconcept/.github/blob/main/docs/CONTRIBUTING.md" }
+      },
+      {
+        "label": "Bestuur",
+        "type": "readme",
+        "current": {
+          "pathname": "/about/governance",
+          "operator": "equals"
+        },
+        "handleClick": { "link": "https://github.com/OpenWebconcept/.github/blob/main/docs/GOVERNANCE.md" }
+      },
+      {
+        "label": "Beveiliging",
+        "type": "readme",
+        "current": {
+          "pathname": "/about/beveiliging",
+          "operator": "equals"
+        },
+        "handleClick": { "link": "https://github.com/OpenWebconcept/.github/blob/main/docs/SECURITY.md" }
+      },
+      {
+        "label": "Ondersteuning",
+        "type": "readme",
+        "current": {
+          "pathname": "/about/support",
+          "operator": "equals"
+        },
+        "handleClick": { "link": "https://github.com/OpenWebconcept/.github/blob/main/docs/SUPPORT.md" }
+      }
+    ]
+  }
+]
