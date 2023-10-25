@@ -31,7 +31,7 @@
           "pathname": "/about/architectuur",
           "operator": "equals"
         },
-        "handleClick": { "link": "https://github.com/OpenWebconcept/.github/blob/main/profile/Architectuur.md" }
+        "handleClick": { "link": "https://github.com/OpenWebconcept/.github/blob/main/docs/Architectuur.md" }
       },
       {
         "label": "Bijdragen",
