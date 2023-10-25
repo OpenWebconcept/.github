@@ -1,0 +1,32 @@
+name: My Open Catalogi Workflow
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create or Update publiccode.yaml
+        uses: OpenCatalogi/publiccode-action@1.0.0
+        with:
+          opencatalogi: true
+      - name: Create an Open Catalogi page
+        uses: OpenCatalogi/opencatalogi-action@1.0.0-SNAPSHOT.13.cda0940
+        with:
+          nl_design_theme_classname: 'open-webconcept-theme'
+          pull_from_branche: 'development'
+          start_page: 'https://github.com/OpenWebconcept/.github/blob/main/docs/Catalogi.md'
+          footer_content: 'https://raw.githubusercontent.com/OpenWebconcept/.github/main/FooterContent.json'
+          navbar_content: 'https://raw.githubusercontent.com/OpenWebconcept/.github/main/HeaderContent.json'
+          favicon_logo: 'https://openwebconcept.nl/wp-content/themes/openwebconcept/assets/src/images/logo@2x.png'
+          navbar_logo: 'https://openwebconcept.nl/wp-content/themes/openwebconcept/assets/src/images/logo@2x.png'
+          footer_logo: 'https://openwebconcept.nl/wp-content/themes/openwebconcept/assets/src/images/logo@2x.png'

@@ -12,7 +12,7 @@ Binnen het Open Webconcept hanteren we de volgende uitgangspunten:
 * Open samenwerking
 * Pragmatisch
 
-Intentieverklaring op: https://openwebconcept.nl/intentieverklaring/
+Intentieverklaring op: [https://OpenWebconcept.nl/intentieverklaring/](https://OpenWebconcept.nl/intentieverklaring/)
 
 ## Open Webconcept bouwblokken
 
@@ -81,14 +81,6 @@ Per bouwblok:
 * Gebruiksdocumentatie is in het Nederlands
 * De voorkant van een bouwblok is in ieder geval beschikbaar in het Nederlands
 
-## NL Design
-
-* We kiezen voor aansluiting op WordPress standaarden (Gutenberg blokken) boven NL Design (React)
-* We volgen Storybook #TODO link toevoegen
-* We houden een lijst bij welke NL Design variant we gebruiken per component
-* Daar waar we extra componenten ontwikkelen geven we die terug aan NL Design
-* We voegen extra tokens altijd toe aan de Open Webconcept token set voor test doeleinden
-
 ## Beheer organisatie
 
 ### Open Webconcept Foundation
@@ -110,3 +102,7 @@ Per bouwblok:
 * Plaatst de code in de betreffende repository
 * Zorgt dat de bugs worden opgelost
 * Handelt de issues / changes af
+
+## Architectuur
+
+Alle bijdragen moeten voldoen aan de [architectuur principes](Architectuur.md) 

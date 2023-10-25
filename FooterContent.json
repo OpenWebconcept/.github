@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Menu",
+    "items": [
+      {
+        "value": "Architectuur",
+        "ariaLabel": "Componenten",
+        "icon": { "prefix": "fas", "icon": "arrow-right", "placement": "left" }
+      },
+      {
+        "value": "About us",
+        "ariaLabel": "About us",
+        "icon": { "prefix": "fas", "icon": "arrow-right", "placement": "left" }
+      },
+      {
+        "value": "Products",
+        "ariaLabel": "Products",
+        "icon": { "prefix": "fas", "icon": "arrow-right", "placement": "left" }
+      },
+      {
+        "value": "Pricing",
+        "ariaLabel": "Pricing",
+        "icon": { "prefix": "fas", "icon": "arrow-right", "placement": "left" }
+      },
+      {
+        "value": "Vacancies",
+        "ariaLabel": "Vacancies",
+        "icon": { "prefix": "fas", "icon": "arrow-right", "placement": "left" }
+      }
+    ]
+  }
+]
