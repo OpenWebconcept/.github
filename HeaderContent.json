@@ -9,7 +9,7 @@
     "handleClick": { "link": "https://github.com/OpenWebconcept/.github/blob/main/docs/Catalogi.md" }
   },
   {
-    "label": "Components",
+    "label": "Bouwblokken",
     "type": "internal",
     "current": {
       "pathname": "/components",
