@@ -1,0 +1,153 @@
+contact:
+  email: ''
+  phone: ''
+name: ''
+publiccodeYmlVersion: '0.2'
+softwareOwned:
+- https://github.com/OpenWebconcept/open-government-publications
+- https://github.com/OpenWebconcept/plugin-datainmap
+- https://github.com/OpenWebconcept/plugin-pdc-base
+- https://github.com/OpenWebconcept/plugin-openwob
+- https://github.com/OpenWebconcept/plugin-gravityforms-bag-address
+- https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem
+- https://github.com/OpenWebconcept/plugin-openpub-base
+- https://github.com/OpenWebconcept/plugin-prefill-gravity-forms
+- https://github.com/OpenWebconcept/theme-woo-portal-theme
+- https://github.com/OpenWebconcept/plugin-openpub-woo-portal
+- https://github.com/OpenWebconcept/plugin-woo-portal-plugin
+- https://github.com/OpenWebconcept/Workflow
+- https://github.com/OpenWebconcept/plugin-voicewp
+- https://github.com/OpenWebconcept/plugin-pdc-verordeningen
+- https://github.com/OpenWebconcept/Afspraken
+- https://github.com/OpenWebconcept/-Archief-Openwebconcept
+- https://github.com/OpenWebconcept/kiss-frontend
+- https://github.com/OpenWebconcept/plugin-openpub-persberichten
+- https://github.com/OpenWebconcept/plugin-pdc-faq
+- https://github.com/OpenWebconcept/plugin-openwoo
+- https://github.com/OpenWebconcept/plugin-pdc-samenwerkende-catalogi
+- https://github.com/OpenWebconcept/plugin-samenwerkende-catalogi
+- https://github.com/OpenWebconcept/plugin-pdc-internal-products
+- https://github.com/OpenWebconcept/plugin-gravityforms-remote-connector
+- https://github.com/OpenWebconcept/plugin-wp-rest-cache-addon-for-owc
+- https://github.com/OpenWebconcept/.github
+- https://github.com/OpenWebconcept/plugin-b-w-besluiten
+- https://github.com/OpenWebconcept/plugin-pdc-expiration-date
+- https://github.com/OpenWebconcept/plugin-pdc-leges
+- https://github.com/OpenWebconcept/plugin-openconvenanten
+- https://github.com/OpenWebconcept/plugin-ruimtelijke-plannen
+- https://github.com/OpenWebconcept/plugin-openpub-internal-data
+- https://github.com/OpenWebconcept/plugin-pdc-elasticsearch
+- https://github.com/OpenWebconcept/plugin-pdc-locations
+- https://github.com/OpenWebconcept/openpdd
+- https://github.com/OpenWebconcept/plugin-owc-openpdd-sanitizer
+softwareSupported:
+- software: https://github.com/OpenWebconcept/open-government-publications
+  type: community
+- software: https://github.com/OpenWebconcept/plugin-datainmap
+  type: community
+- software: https://github.com/OpenWebconcept/plugin-pdc-base
+  type: community
+- software: https://github.com/OpenWebconcept/plugin-openwob
+  type: community
+- software: https://github.com/OpenWebconcept/plugin-gravityforms-bag-address
+  type: community
+- software: https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem
+  type: community
+- software: https://github.com/OpenWebconcept/plugin-openpub-base
+  type: community
+- software: https://github.com/OpenWebconcept/plugin-prefill-gravity-forms
+  type: community
+- software: https://github.com/OpenWebconcept/theme-woo-portal-theme
+  type: community
+- software: https://github.com/OpenWebconcept/plugin-openpub-woo-portal
+  type: community
+- software: https://github.com/OpenWebconcept/plugin-woo-portal-plugin
+  type: community
+- software: https://github.com/OpenWebconcept/Workflow
+  type: community
+- software: https://github.com/OpenWebconcept/plugin-voicewp
+  type: community
+- software: https://github.com/OpenWebconcept/plugin-pdc-verordeningen
+  type: community
+- software: https://github.com/OpenWebconcept/Afspraken
+  type: community
+- software: https://github.com/OpenWebconcept/-Archief-Openwebconcept
+  type: community
+- software: https://github.com/OpenWebconcept/kiss-frontend
+  type: community
+- software: https://github.com/OpenWebconcept/plugin-openpub-persberichten
+  type: community
+- software: https://github.com/OpenWebconcept/plugin-pdc-faq
+  type: community
+- software: https://github.com/OpenWebconcept/plugin-openwoo
+  type: community
+- software: https://github.com/OpenWebconcept/plugin-pdc-samenwerkende-catalogi
+  type: community
+- software: https://github.com/OpenWebconcept/plugin-samenwerkende-catalogi
+  type: community
+- software: https://github.com/OpenWebconcept/plugin-pdc-internal-products
+  type: community
+- software: https://github.com/OpenWebconcept/plugin-gravityforms-remote-connector
+  type: community
+- software: https://github.com/OpenWebconcept/plugin-wp-rest-cache-addon-for-owc
+  type: community
+- software: https://github.com/OpenWebconcept/.github
+  type: community
+- software: https://github.com/OpenWebconcept/plugin-b-w-besluiten
+  type: community
+- software: https://github.com/OpenWebconcept/plugin-pdc-expiration-date
+  type: community
+- software: https://github.com/OpenWebconcept/plugin-pdc-leges
+  type: community
+- software: https://github.com/OpenWebconcept/plugin-openconvenanten
+  type: community
+- software: https://github.com/OpenWebconcept/plugin-ruimtelijke-plannen
+  type: community
+- software: https://github.com/OpenWebconcept/plugin-openpub-internal-data
+  type: community
+- software: https://github.com/OpenWebconcept/plugin-pdc-elasticsearch
+  type: community
+- software: https://github.com/OpenWebconcept/plugin-pdc-locations
+  type: community
+- software: https://github.com/OpenWebconcept/openpdd
+  type: community
+- software: https://github.com/OpenWebconcept/plugin-owc-openpdd-sanitizer
+  type: community
+softwareUsed:
+- https://github.com/OpenWebconcept/open-government-publications
+- https://github.com/OpenWebconcept/plugin-datainmap
+- https://github.com/OpenWebconcept/plugin-pdc-base
+- https://github.com/OpenWebconcept/plugin-openwob
+- https://github.com/OpenWebconcept/plugin-gravityforms-bag-address
+- https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem
+- https://github.com/OpenWebconcept/plugin-openpub-base
+- https://github.com/OpenWebconcept/plugin-prefill-gravity-forms
+- https://github.com/OpenWebconcept/theme-woo-portal-theme
+- https://github.com/OpenWebconcept/plugin-openpub-woo-portal
+- https://github.com/OpenWebconcept/plugin-woo-portal-plugin
+- https://github.com/OpenWebconcept/Workflow
+- https://github.com/OpenWebconcept/plugin-voicewp
+- https://github.com/OpenWebconcept/plugin-pdc-verordeningen
+- https://github.com/OpenWebconcept/Afspraken
+- https://github.com/OpenWebconcept/-Archief-Openwebconcept
+- https://github.com/OpenWebconcept/kiss-frontend
+- https://github.com/OpenWebconcept/plugin-openpub-persberichten
+- https://github.com/OpenWebconcept/plugin-pdc-faq
+- https://github.com/OpenWebconcept/plugin-openwoo
+- https://github.com/OpenWebconcept/plugin-pdc-samenwerkende-catalogi
+- https://github.com/OpenWebconcept/plugin-samenwerkende-catalogi
+- https://github.com/OpenWebconcept/plugin-pdc-internal-products
+- https://github.com/OpenWebconcept/plugin-gravityforms-remote-connector
+- https://github.com/OpenWebconcept/plugin-wp-rest-cache-addon-for-owc
+- https://github.com/OpenWebconcept/.github
+- https://github.com/OpenWebconcept/plugin-b-w-besluiten
+- https://github.com/OpenWebconcept/plugin-pdc-expiration-date
+- https://github.com/OpenWebconcept/plugin-pdc-leges
+- https://github.com/OpenWebconcept/plugin-openconvenanten
+- https://github.com/OpenWebconcept/plugin-ruimtelijke-plannen
+- https://github.com/OpenWebconcept/plugin-openpub-internal-data
+- https://github.com/OpenWebconcept/plugin-pdc-elasticsearch
+- https://github.com/OpenWebconcept/plugin-pdc-locations
+- https://github.com/OpenWebconcept/openpdd
+- https://github.com/OpenWebconcept/plugin-owc-openpdd-sanitizer
+website: ''
