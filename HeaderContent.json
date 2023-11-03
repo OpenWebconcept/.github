@@ -52,6 +52,15 @@
         "handleClick": { "link": "https://github.com/OpenWebconcept/.github/blob/main/docs/GOVERNANCE.md" }
       },
       {
+        "label": "Deelnemers",
+        "type": "readme",
+        "current": {
+          "pathname": "/about/participants",
+          "operator": "equals"
+        },
+        "handleClick": { "link": "https://github.com/OpenWebconcept/.github/blob/main/docs/GOVERNANCE.md" }
+      },
+      {
         "label": "Beveiliging",
         "type": "readme",
         "current": {
