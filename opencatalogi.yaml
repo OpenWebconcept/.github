@@ -2,41 +2,9 @@ contact:
   email: ''
   phone: ''
 name: Open Webconcept
+description: Een nieuwe beweging
 publiccodeYmlVersion: '0.2'
-softwareOwned:
-- https://github.com/OpenWebconcept/open-government-publications
-- https://github.com/OpenWebconcept/plugin-datainmap
-- https://github.com/OpenWebconcept/plugin-pdc-base
-- https://github.com/OpenWebconcept/plugin-openwob
-- https://github.com/OpenWebconcept/plugin-gravityforms-bag-address
-- https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem
-- https://github.com/OpenWebconcept/plugin-openpub-base
-- https://github.com/OpenWebconcept/plugin-prefill-gravity-forms
-- https://github.com/OpenWebconcept/theme-woo-portal-theme
-- https://github.com/OpenWebconcept/plugin-openpub-woo-portal
-- https://github.com/OpenWebconcept/plugin-woo-portal-plugin
-- https://github.com/OpenWebconcept/Workflow
-- https://github.com/OpenWebconcept/plugin-voicewp
-- https://github.com/OpenWebconcept/plugin-pdc-verordeningen
-- https://github.com/OpenWebconcept/kiss-frontend
-- https://github.com/OpenWebconcept/plugin-openpub-persberichten
-- https://github.com/OpenWebconcept/plugin-pdc-faq
-- https://github.com/OpenWebconcept/plugin-openwoo
-- https://github.com/OpenWebconcept/plugin-pdc-samenwerkende-catalogi
-- https://github.com/OpenWebconcept/plugin-samenwerkende-catalogi
-- https://github.com/OpenWebconcept/plugin-pdc-internal-products
-- https://github.com/OpenWebconcept/plugin-gravityforms-remote-connector
-- https://github.com/OpenWebconcept/plugin-wp-rest-cache-addon-for-owc
-- https://github.com/OpenWebconcept/plugin-b-w-besluiten
-- https://github.com/OpenWebconcept/plugin-pdc-expiration-date
-- https://github.com/OpenWebconcept/plugin-pdc-leges
-- https://github.com/OpenWebconcept/plugin-openconvenanten
-- https://github.com/OpenWebconcept/plugin-ruimtelijke-plannen
-- https://github.com/OpenWebconcept/plugin-openpub-internal-data
-- https://github.com/OpenWebconcept/plugin-pdc-elasticsearch
-- https://github.com/OpenWebconcept/plugin-pdc-locations
-- https://github.com/OpenWebconcept/openpdd
-- https://github.com/OpenWebconcept/plugin-owc-openpdd-sanitizer
+softwareOwned: []
 softwareSupported: []
 softwareUsed: []
 website: https://openwebconcept.nl/
