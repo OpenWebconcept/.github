@@ -1,7 +1,7 @@
 contact:
   email: ''
   phone: ''
-name: Open Webconcept
+name: 'Open Webconcept'
 publiccodeYmlVersion: '0.2'
 softwareOwned:
 - https://github.com/OpenWebconcept/open-government-publications
@@ -150,4 +150,4 @@ softwareUsed:
 - https://github.com/OpenWebconcept/plugin-pdc-locations
 - https://github.com/OpenWebconcept/openpdd
 - https://github.com/OpenWebconcept/plugin-owc-openpdd-sanitizer
-website: https://openwebconcept.nl/
+website: 'https://openwebconcept.nl/'
