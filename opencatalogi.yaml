@@ -1,7 +1,7 @@
 contact:
   email: ''
   phone: ''
-name: 'Open Webconcept'
+name: Open Webconcept
 publiccodeYmlVersion: '0.2'
 softwareOwned:
 - https://github.com/OpenWebconcept/open-government-publications
