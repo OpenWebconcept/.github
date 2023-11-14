@@ -2,9 +2,21 @@ contact:
   email: ''
   phone: ''
 description: Een nieuwe beweging
+logo: https://avatars.githubusercontent.com/u/63675863?s=200&v=4
 name: Open Webconcept
 publiccodeYmlVersion: '0.2'
-softwareOwned: []
+softwareOwned:
+  - https://github.com/OpenWebconcept/openpdd
+  - https://github.com/OpenWebconcept/plugin-pdc-base
+  - https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem
+  - https://github.com/OpenWebconcept/plugin-openpub-base
 softwareSupported: []
-softwareUsed: []
+softwareUsed:
+  - https://github.com/ConductionNL/conduction-components
+  - https://github.com/ConductionNL/commonground-gateway
+  - https://github.com/OpenCatalogi/OpenCatalogiBundle
+  - https://github.com/OpenCatalogi/web-app
+  - https://github.com/OpenCatalogi/opencatalogi-action
+  - https://github.com/OpenCatalogi/productpage-action
+  - https://github.com/OpenCatalogi/publiccode-action
 website: https://openwebconcept.nl/
