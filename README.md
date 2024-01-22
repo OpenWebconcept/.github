@@ -8,9 +8,9 @@ Deze repository bevat deze afspraken zodat iedereen weet wat ze zijn, hoe ze gem
 
 Hieronder de afspraken:
 - De Open Webconcept [intentieverklaring](docs/INTENTIEVERKLARING.md) waarin onze uitgangspunten staan
-- Afspraken rondom het [beheer van de broncode, documenten en afspraken] (docs/GOVERNANCE.md) zodat het bekend is hoe aanpassingen kunnen worden gedaan
-- Met [Architectuur](docs/ARCHITECTUUR.md) uitgangspunten wordt een kader meegegeven
+- Afspraken rondom het [beheer van de broncode, documenten en afspraken](docs/GOVERNANCE.md) zodat het bekend is hoe aanpassingen kunnen worden gedaan
+- Met de [architectuur](docs/ARCHITECTUUR.md) uitgangspunten wordt een kader meegegeven
 - De [security](/docs/SECURITY.md) afspraken zorgen we dat er duidelijk is over het oppakken van veiligheidspunten goed en dat deze adequaat kunnen worden opgepakt
 - Afspraken rondom [beheer](/docs/SUPPORT.md) om zo te zorgen voor eigenaarschap en doorontwikkeling 
 
-Daarnaast bevat deze repository ook nog een lijst van alle gemeenten alle [Open Webconcept-gemeenten](docs/PARTICIPANTS.md)
+Daarnaast bevat deze repository ook nog een lijst van alle [Open Webconcept-gemeenten](docs/PARTICIPANTS.md)
